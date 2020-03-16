@@ -1,6 +1,6 @@
 ## Activities in progress
 
-- 100daysof code
+- 100daysofcode
 - codewars
 - DATALGO in DBTC
 
