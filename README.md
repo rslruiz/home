@@ -1,4 +1,4 @@
-## Activities in progress
+## Work in progress
 
 - 100daysofcode
 - codewars
