@@ -23,7 +23,7 @@ def ispalindrome(n):
     pal = palin = n; drome = 0
     while pal != 0: 
         drome = drome*10 + pal%10
-        pal//=10
+        pal //= 10
     if palin - drome == 0:
         return True
     else: return False
