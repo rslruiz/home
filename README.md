@@ -8,7 +8,18 @@
 ### ProjectEuler
 
 ```
-# Problem 2: Even fibonacci Numbers
+# Problem 3: Largest prime factor
+def largestPrimeFactor(n):
+    for d in range(2, n):
+        while n%d == 0:
+            n //= d
+
+        if d*d > n: break
+    return n
+```
+
+```
+# Problem 2: Even fibonacci numbers
 def fibonacci(n):
     a, b = 1, 0
     while a <= n:
