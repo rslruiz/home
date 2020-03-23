@@ -8,6 +8,28 @@
 ### ProjectEuler
 
 ```
+# Problem 4: Largest palindrome product
+def largestPalindromeProduct(n):
+    max = int('9'*n)
+    min = 9*10**(n-1)
+    for i in range(max, min, -1):
+        for j in range(i, min, -1):
+            prod = i*j
+            if ispalindrome(prod):
+                return prod
+    return -1
+
+def ispalindrome(n):
+    pal = palin = n; drome = 0
+    while pal != 0: 
+        drome = drome*10 + pal%10
+        pal//=10
+    if palin - drome == 0:
+        return True
+    else: return False
+```
+
+```
 # Problem 3: Largest prime factor
 def largestPrimeFactor(n):
     for d in range(2, n):
