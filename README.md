@@ -1,9 +1,9 @@
 ## Work in progress
 
-- 100daysofcode
-- codewars
 - DATALGO in DBTC
+- 100daysofcode
 - ProjectEuler
+- codewars
 
 ### ProjectEuler
 
