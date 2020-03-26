@@ -8,6 +8,23 @@
 ### ProjectEuler
 
 ```
+# Problem 5: Smallest multiple
+from functools import reduce
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+def lcm(a, b):
+    return a * b // gcd(a, b)
+
+def smallestMult(n):
+    return reduce(lcm,range(1,n+1))
+```
+
+
+```
 # Problem 4: Largest palindrome product
 def largestPalindromeProduct(n):
     max = int('9'*n)
@@ -28,6 +45,7 @@ def ispalindrome(n):
         return True
     else: return False
 ```
+
 
 ```
 # Problem 3: Largest prime factor
