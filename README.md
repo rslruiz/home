@@ -6,6 +6,7 @@
 - DATALGO in DBTC
 
 ### ProjectEuler
+https://rslruiz.github.io/ProjectEuler/
 
 ```
 # Problem 5: Smallest multiple
