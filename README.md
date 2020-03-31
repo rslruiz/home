@@ -24,7 +24,7 @@ def smallestMult(n):
     return reduce(lcm,range(1,n+1))
 ```
 
-
+<!---
 ```
 # Problem 4: Largest palindrome product
 def largestPalindromeProduct(n):
@@ -76,6 +76,7 @@ def fiboEvenSum(n):
 def multiplesOf3and5(number):
     return sum(i for i in range(number) if i%3 == 0 or i%5 ==0)
 ```
+--->
 
 ### Website
 
