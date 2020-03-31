@@ -2,7 +2,7 @@
 
 - 100daysofcode
 - codewars
-- DATALGO in DBTC
+- [DATALGO in DBTC](https://rslruiz.github.io/datalgo/)
 
 ### ProjectEuler
 <https://rslruiz.github.io/ProjectEuler/>
