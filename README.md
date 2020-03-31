@@ -8,6 +8,15 @@
 <https://rslruiz.github.io/ProjectEuler/>
 
 ```
+Problem 6: Sum square difference
+
+def sumSquareDifference(n):
+    return sum(i for i in range(n+1))**2 - sum( i**2 for i in range(n+1))
+
+```
+
+<!---
+```
 # Problem 5: Smallest multiple
 from functools import reduce
 
@@ -23,7 +32,6 @@ def smallestMult(n):
     return reduce(lcm,range(1,n+1))
 ```
 
-<!---
 ```
 # Problem 4: Largest palindrome product
 def largestPalindromeProduct(n):
