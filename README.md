@@ -87,7 +87,7 @@ def multiplesOf3and5(number):
 
 ### Website
 
-[rslruiz.github,io](https://rslruiz.github.io) [www.rslruiz.com](http://www.rslruiz.com)
+[rslruiz.github.io](https://rslruiz.github.io) [www.rslruiz.com](http://www.rslruiz.com)
 
 ### Contact
 
